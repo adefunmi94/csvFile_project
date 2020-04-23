@@ -1,0 +1,6 @@
+Id,Transaction_Type_Description,Requester_Id_Number,Requester_Customer_Name,Requester_Mobile_Number,Bank_Acount_Name,Bank_Acount_Number,Bank_Acount_Type,Requester_Session_Id,Requester_Cell_Network,Insurance_Policy_Number_Provided,Insurance_Policy_Number,Withdrawal_Type,Withdrawal_Amount,Withdrawal_Fund_Type,Deceased_Id_Number,Channel,Email_Dispatch_Status,Requester_Terms_Conditions,Created_At,Updated_At
+1,Full Withdrawal,910802xxxxxx,Emme Bates,060382xxxxx,Standard,85215445xxx,Salary,97897728978,Telkom,True,12346565xxx,Full,N/A,N/A,N/A,USSD,2,True,2020-04-21 12:50:51,2020-04-21 12:52:58
+2,Funeral Claim,910802xxxxxx,Alexia Wells,060382xxxxx,Ecobank,20010158xxxx,Savings,95579728972,Mobinil,N/A,N/A,N/A,N/A,N/A,6455352xxxxx,USSD,0,True,2020-04-21 12:51:01,2020-04-21 12:51:01
+3,Partial Withdrawal,910802xxxxxx,Edwin J. Nesler,06038278xxx,ABSA,953625445xxx,Brokerage account,178979728972,MTN,True,12346565xxx,Partial,1000,Evenly,N/A,USSD,0,True,2020-04-21 12:51:57,2020-04-21 12:51:57
+4,Full Withdrawal,910802xxxxxx,Emme Bates,060382xxxxx,Standard,85215445xxx,Salary,97897728978,Telkom,True,12346565xxx,Full,N/A,N/A,N/A,USSD,0,True,2020-04-21 12:52:09,2020-04-21 12:52:09
+5,Funeral Claim,910802xxxxxx,Alexia Wells,060382xxxxx,Ecobank,20010158xxxx,Savings,95579728972,Mobinil,N/A,N/A,N/A,N/A,N/A,6455352xxxxx,USSD,0,True,2020-04-21 12:52:20,2020-04-21 12:52:20
