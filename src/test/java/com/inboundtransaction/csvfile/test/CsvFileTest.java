@@ -222,7 +222,7 @@ public class CsvFileTest {
 //				Date today = new Date();
 //				//String attachmentName = filename+today.getTime().+"..csv";
 				
-				emailServiceImpl.sendWithAttatchMent("nmuturi@uapoldmutual.com", "CSV Project", "Dear Funmi, \n Hope this email meet u well. Kindly see the attached of csv file i worked, fetching from database. \n Thanks \n Funmilayo", "inboundtrans2.csv", "transactions");
+				emailServiceImpl.sendWithAttatchMent("oyeyipoadefunmi90@gmail.com", "CSV Project", "Hello Micheal, \n Hope this email meet u well.\n Kindly see the attached of csv file i worked, I am just testing  it. \n   Thanks \n Funmilayo", "inboundtrans2.csv", "transactions");
 			} catch (MessagingException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();

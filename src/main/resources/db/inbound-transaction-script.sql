@@ -1,6 +1,4 @@
-
-CREATE DATABASE IF NOT EXISTS `inbound_transaction_db`;
-USE `inbound_transaction_db`;
+USE `db_inbound_transactions`;
 
 DROP TABLE IF EXISTS `inbound_transactions`;
 
