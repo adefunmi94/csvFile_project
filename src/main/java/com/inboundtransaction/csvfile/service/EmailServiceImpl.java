@@ -1,6 +1,9 @@
 package com.inboundtransaction.csvfile.service;
 
 import java.io.File;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 import javax.mail.MessagingException;
 import javax.mail.internet.MimeMessage;
@@ -42,6 +45,12 @@ public class EmailServiceImpl implements EmailService {
 	public void sendWithAttatchMent(String to, String subject, String text, 
 			String pathToAttachment, String extensionName) throws MessagingException{
 			
+		 
+		String space = "_";
+		String filena = ".csv";
+		String extendName = "transactions";
+		extensionName = extendName + space + getAttachedFileUpdated() + filena;
+		
 		MimeMessage message = emailSender.createMimeMessage();
 	      
 	    MimeMessageHelper helper = new MimeMessageHelper(message, true);
@@ -57,4 +66,11 @@ public class EmailServiceImpl implements EmailService {
 	    emailSender.send(message);
 	}
 	
+	public String getAttachedFileUpdated() {
+		DateFormat df = new SimpleDateFormat("dd/MM/yy HH:mm:ss");
+		Date dateobj = new Date();
+			
+			
+			return df.format(dateobj);
+	}
 }

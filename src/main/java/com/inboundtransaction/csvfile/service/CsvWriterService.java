@@ -27,13 +27,10 @@ public class CsvWriterService {
 	
 	
 	public void writeModelToSCV(List<InboundTransaction> inboundTransactionsList, String filename )throws IOException {
-		 
-//		String space = "_";
-//		String csvExtention = ".csv";
 		
 //		filename=space +csvExtention;
 		
-				getAttachedFileUpdated() ;
+				
 		
 		List<String> headers = new ArrayList<>() ;
 		
@@ -102,12 +99,6 @@ public class CsvWriterService {
 				return result;
 		}
 	
-	public String getAttachedFileUpdated() {
-		DateFormat df = new SimpleDateFormat("dd/MM/yy HH:mm:ss");
-		Date dateobj = new Date();
-			
-			
-			return df.format(dateobj);
-	}
+	
 	
 }
