@@ -218,9 +218,7 @@ public class CsvFileTest {
 			//send csv file to email address
 			
 			try {
-//				String filename = "transactions";
-//				Date today = new Date();
-//				//String attachmentName = filename+today.getTime().+"..csv";
+
 				
 				emailServiceImpl.sendWithAttatchMent("oyeyipoadefunmi90@gmail.com", "CSV Project", "Hello Micheal, \n Hope this email meet u well.\n Kindly see the attached of csv file i worked, I am just testing  it. \n   Thanks \n Funmilayo", "inboundtrans2.csv", "transactions");
 			} catch (MessagingException e) {
