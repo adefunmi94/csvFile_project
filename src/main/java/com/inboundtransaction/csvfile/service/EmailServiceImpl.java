@@ -69,8 +69,6 @@ public class EmailServiceImpl implements EmailService {
 	public String getAttachedFileUpdated() {
 		DateFormat df = new SimpleDateFormat("dd/MM/yy HH:mm:ss");
 		Date dateobj = new Date();
-			
-			
 			return df.format(dateobj);
 	}
 }
